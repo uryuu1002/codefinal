@@ -17,12 +17,15 @@ void setup() {
 
 void draw() {
   background(255);
-
+  pushMatrix();
   p1.update();
   p1.display();
+  popMatrix();
   
+  pushMatrix();
   p2.update();
   p2.display();
+  popMatrix();
 }
 
 class Rotater {

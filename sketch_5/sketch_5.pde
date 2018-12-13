@@ -17,12 +17,12 @@ void setup() {
 }
 
 void draw() {
-  while (i < width) {
+  while (i <= width) {
     float r = map(i, 0, width, 0, 255);
     i ++;
   }
 
-  while (j < height) {
+  while (j <= height) {
     j++;
     float g = map(j, 0, height, 0, 255);
   }

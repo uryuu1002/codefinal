@@ -26,8 +26,8 @@ void setup() {
 void draw() {
   background(0);
   for (int i = 0; i < amount; i ++) {
-    y = offset + sin(angle + i * 0.4) * amplitude;
-    ellipse(10 + i * 20, y, 20, 20);
+    y = offset + sin(angle + i * 0.2) * amplitude;
+    ellipse(5 + i * 20, y, 20, 20);
   }
   angle += speed;
 }
